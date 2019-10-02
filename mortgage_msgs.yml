@@ -1,0 +1,27 @@
+# mortgage_msgs.yml
+
+en:
+  welcome:        "Hello ~ This is Mortgage Calculator!"
+  retrieve_amt:   "Please enter a dollar amount to borrow:"
+  retrieve_apr:   "What is the annual percentage rate (APR)? (e.g. 4.5 for 4.5%)"
+  retrieve_yrs:   "How many YEARS do you want to pay off the loan?"
+  error1:         "Hmm...Maybe you don't need a loan ... Please try again"
+  error2:         "Oh no, you didn't enter anything, please try again"
+  error_general:  "Oh no, that's not a valid number, please try again"
+  error_whole:    "Hmmm...please enter a whole number, such as 1, 2, 10"
+  error_payback:  "Hmm...then you owe the $$ back ASAP! Try again"
+  go_again:       "Would you like another calculation? Enter Y to continue"
+  goodbye:        "Thank you for using Mortgage Calculator! Goodbye"
+
+es:
+  welcome:        "Hola ~ Esta es la calculadora de hipotecas!"
+  retrieve_amt:   "Ingrese un monto en dólares para pedir prestado:"
+  retrieve_apr:   "¿Cuál es la tasa de porcentaje anual (APR)? (por ejemplo, 4.5 para 4.5%)"
+  retrieve_yrs:   "¿Cuántos AÑOS quieres pagar el préstamo?"
+  error1:         "Hmm...Maybe you don't need a loan ... Please try again"
+  error2:         "Oh no, no ingresaste nada, por favor intenta nuevamente"
+  error_general:  "Oh no, eso no es válido, por favor intente nuevamente"
+  error_whole:    "Hmmm ... ingrese el número entero, como 1, 2, 10"
+  error_payback:  "Hmm ... ¡entonces debes el $$ de regreso lo antes posible!"
+  go_again:       "¿Quieres otro cálculo? Ingrese Y para continuar"
+  goodbye:        "¡Gracias por usar la calculadora de hipotecas! Bueno"
