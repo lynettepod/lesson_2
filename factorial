@@ -1,0 +1,17 @@
+# Factorial
+
+def factorial(n)
+    result = 1
+    while n > 0
+        result = result * n
+        n = n - 1
+    end
+
+puts result
+
+end
+
+factorial(-1)
+
+
+

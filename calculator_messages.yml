@@ -1,0 +1,20 @@
+# calculator_messages.yml
+
+welcome: "Welcome to Calculator!"
+name: "What's your name?"
+valid_name: "Please enter a valid name..can be anything you like:"
+
+# As you can see, it's just a list key/value pairs, almost like a hash.
+# Next, we'll parse this .yml file using a module that comes from the
+# Ruby standard library.
+
+# To use that module in your file, add require 'yaml' and you can parse
+# the calculator_messages.yml file, then save the parsed data into a variable.
+
+# replace this:
+# prompt("Welcome to Calculator!")
+
+# with this:
+# prompt(MESSAGES['welcome'])
+
+# Your program is now using a configuration file! :)

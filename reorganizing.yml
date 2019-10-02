@@ -1,0 +1,23 @@
+# reorganizing the calculator_messages.yml
+
+en:
+  welcome: "Welcome to Calculator!"
+  name: "What's your name?"
+  valid_name: "Please enter a valid name..can be anything you like:"
+
+es:
+  welcome: "Spanish Welcome to Calculator!"
+  name: "Spanish - What's your name?"
+  valid_name: "Spanish - Please enter a valid name..can be anything:"
+
+# Using two top-level keys here to distinguish between English messages and Spanish messages
+# Can have as many top-level keys here as you want -- such as one for each language your program supports
+
+# Creates a nested hash
+# This means we have to grab the language first, then the message:
+
+# 1 | MESSAGES['es']['welcome']
+
+# def messages(message,lang='en')
+#   MESSAGES[lang][message]
+# end
