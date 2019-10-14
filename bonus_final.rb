@@ -102,7 +102,7 @@ end
 
 def determine_grand_winner(player_score, computer_score)
   if player_score > computer_score
-    "GRAND WINNER decided -- Congratuations, It's YOU!"
+    "GRAND WINNER decided -- Congratulations, It's YOU!"
   else
     "GRAND WINNER decided -- Shucks...it's the computer!"
   end
