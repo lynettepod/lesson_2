@@ -68,17 +68,18 @@ def display_results(player, computer)
 end
 
 def display_game_intro
-  prompt("This is Rock-Paper-Scissors-Lizard_Spock!")
+  prompt("This is Rock-Paper-Scissors-Lizard_Spock")
   prompt("First to score #{GRAND_WINNER_SCORE} will be match GRAND WINNER!")
+  prompt("Game will track each round and keep score - good luck!")
   puts "*************************************************"
 end
 
 def display_scoreboard(player_score, computer_score, tie_score)
   puts " "
-  puts "SCOREBOARD:"
-  puts "Your Score: #{player_score}"
-  puts "Computer's Score: #{computer_score}"
-  puts "Ties: #{tie_score}"
+  puts("SCOREBOARD:")
+  puts "=> Your Score: #{player_score}"
+  puts "=> Computer's Score: #{computer_score}"
+  puts "=> Ties: #{tie_score}"
   puts " "
 end
 
