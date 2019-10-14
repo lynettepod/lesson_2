@@ -1,4 +1,4 @@
-# rps_bonus.rb
+# bonus_final.rb
 # Rock-Paper-Scissors-Lizard-Spock Game
 
 VALID_CHOICES = %w(r p sc l sp)
@@ -48,13 +48,14 @@ end
 
 def display_players_choices(choice, computer_choice)
   chart = {
-  "r" => "rock",
-  "p" => "paper",
-  "sc" => "scissors",
-  "l" => "lizard",
-  "sp" => "Spock"
-}
-  prompt("You chose: #{chart[choice]}; Computer chose: #{chart[computer_choice]}")
+    "r" => "rock",
+    "p" => "paper",
+    "sc" => "scissors",
+    "l" => "lizard",
+    "sp" => "Spock"
+  }
+  prompt("You chose: #{chart[choice]}")
+  prompt("Computer chose: #{chart[computer_choice]}")
 end
 
 def display_results(player, computer)
@@ -109,8 +110,6 @@ end
 def display_grand_winner(player_score, computer_score)
   puts determine_grand_winner(player_score, computer_score)
 end
-
-# main loop
 
 clear_screen
 round_number = 0
